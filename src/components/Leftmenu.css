@@ -1,0 +1,10 @@
+.Leftmenu{
+position: absolute;
+left: 0px;
+width: 42px;
+top: 42px;
+bottom:0 ;
+box-sizing: border-box;
+background-color: black;
+box-shadow:0 3px 6px rgba(0,0,0,0,16) 0 3px 6px rgba(139, 7, 89, 0.23) ;
+}

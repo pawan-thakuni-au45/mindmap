@@ -1,0 +1,14 @@
+.icon{
+    fill:#ffffffff;
+}
+
+.primary{
+    fill: #1207dc;
+}
+.alert{
+    fill:#ffffffff;
+    background:red;
+}
+.default{
+    fill:#000000;
+}
