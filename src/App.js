@@ -1,18 +1,13 @@
-import React from 'react'
-import Header from './components/Header.js'
-import Content from './components/Content.js'
-import Leftmenu from './components/Leftmenu.js'
-import Breadcrumbs from './components/Breadcrumbs.js'
 
-const App = () => {
+import MindMap from "./components/MindMap";
+
+function App() {
   return (
-    <div>
-    <Header/>
-    <Leftmenu/>
-    <Breadcrumbs/>
-      <Content/>
+    <div className="App">
+      <h1>Car Company Mind Map</h1>
+     <MindMap/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
