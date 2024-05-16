@@ -13,6 +13,12 @@ const Todo = () => {
         )
        
     }
+
+    const deleteTask=()=>{
+        return(
+            setTasks(tasks===null)
+        )
+    }
    
   return (
     <div>
@@ -29,6 +35,7 @@ const Todo = () => {
         tasks.map((e)=>
           <ul>
          <li>{e}</li>
+         <button onClick={deleteTask}>Delete</button>
         </ul>
         )
         }
