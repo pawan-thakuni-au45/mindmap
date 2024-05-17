@@ -7,7 +7,7 @@ const Todo = () => {
     const handleClick=()=>{
         setTask(" ")
         return(
-   setTasks([...tasks,task]);
+   setTasks([...tasks,task])
    
    
         )
